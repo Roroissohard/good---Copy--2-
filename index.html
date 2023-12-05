@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik&quot; rel="stylesheet">
     <title>HTML Forms</title>
@@ -31,7 +32,7 @@
             <span>Well-Done</span>
 
             <br>
-            <label for="amount">How many patties would you like?</label>
+            <label for="amount">What type patties would you like?</label>
             <select name="bun" id="bun">
               <option value="sesame">Sesame</option>
               <option value="potato">Potato</option>
@@ -39,13 +40,28 @@
               <option value="sourdough">Sour Dough</option>
               <option value="gluten free">Gluten Free</option>
 
+                  <br>
+
+              <section class="submission">
+                <input type="submit">
+
+                <br>
+                <label for="amount">What type sauce would you like?</label>
+            <select name="sauce" id="sauce">
+              <option value="BBQ">BBQ</option>
+              <option value="Mustard">Mustard</option>
+              <option value="Honey Mustard">Honey Mustard</option>
+              <option value="Salntra">Salntra</option>
+              <option value="Ketchup">Ketchup</option>
+              <option value="Zesty Buffalo">Zesty Buffalo</option>
+
 
 
               <section class="submission">
                 <input type="submit">
               </section>
         </section>
-      /form>
+      </form>
      
     </section>
   </body>
